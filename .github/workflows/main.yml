@@ -10,11 +10,11 @@ jobs:
     steps:
     
     - name: hello
-
-    run: |
+      run: |
           echo "Hello world :)"
 
   bandit:
+    runs-on: ubuntu-latest
 
     steps:
     
