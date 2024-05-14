@@ -15,7 +15,7 @@ jobs:
 
   bandit:
     runs-on: ubuntu-latest
-    needs: hello
+    # needs: hello
 
     steps:
     
