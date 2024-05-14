@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: SAST
-      continue-on-error: true
+      # continue-on-error: true
       run: |
             mkdir reports 
             docker run --rm -v $(pwd):/data cytopia/bandit -r ./app -f txt -o reports/test.txt
