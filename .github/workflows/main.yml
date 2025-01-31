@@ -2,6 +2,7 @@ name: security-scan
 on:
   schedule:
     - cron: '40 13 * * *'
+  workflow_dispatch: #execucao manual
   # push:
   #   branches: [ main ]
 
