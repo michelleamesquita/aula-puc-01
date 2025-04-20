@@ -34,7 +34,7 @@ jobs:
             docker run --rm -v $(pwd):/data cytopia/bandit -r ./app -f txt -o reports/test.txt
             
     - name: Archive bandit
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
           name: test.txt
           path: reports/test.txt
