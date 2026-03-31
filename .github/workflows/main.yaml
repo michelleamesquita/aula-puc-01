@@ -18,9 +18,9 @@ jobs:
       run: | 
           echo "Hello world :)"
 
-  bandit:
-    runs-on: ubuntu-latest
-    needs: hello
+  # bandit:
+  #   runs-on: ubuntu-latest
+  #   needs: hello
 
     # steps:
     
